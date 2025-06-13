@@ -30,57 +30,8 @@ A comprehensive full-stack web application for rating and managing stores with r
 - MySQL database
 - npm or yarn
 
-### Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd store-rating-platform
-   ```
 
-2. **Install frontend dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Install backend dependencies**
-   ```bash
-   cd backend
-   npm install
-   cd ..
-   ```
-
-4. **Configure Database**
-   - Create a MySQL database named `store_rating_db`
-   - Update `backend/.env` with your database credentials:
-   ```env
-   DB_HOST=localhost
-   DB_USER=your_username
-   DB_PASSWORD=your_password
-   DB_NAME=store_rating_db
-   JWT_SECRET=your-super-secret-jwt-key
-   PORT=5000
-   ```
-
-5. **Initialize Database**
-   ```bash
-   cd backend
-   npm run init-db
-   cd ..
-   ```
-
-6. **Start the application**
-   ```bash
-   npm run dev
-   ```
-
-   This will start both frontend (port 5173) and backend (port 5000) servers.
-
-## Default Admin Account
-
-After database initialization, you can login with:
-- **Email**: admin@storerating.com  
-- **Password**: Admin@123
 
 ## Project Structure
 
@@ -157,6 +108,3 @@ store-rating-platform/
 4. Push to the branch
 5. Create a Pull Request
 
-## License
-
-This project is licensed under the MIT License.
